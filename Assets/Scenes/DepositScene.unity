@@ -1029,7 +1029,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1548555036}
         m_TargetAssemblyTypeName: atmManager, Assembly-CSharp
-        m_MethodName: InputDeposit
+        m_MethodName: Input_deposit_withdraw
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1298,7 +1298,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1548555036}
         m_TargetAssemblyTypeName: atmManager, Assembly-CSharp
-        m_MethodName: deposit
+        m_MethodName: deposit_withdraw
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1780,7 +1780,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1548555036}
         m_TargetAssemblyTypeName: atmManager, Assembly-CSharp
-        m_MethodName: deposit
+        m_MethodName: deposit_withdraw
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1914,7 +1914,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1548555036}
         m_TargetAssemblyTypeName: atmManager, Assembly-CSharp
-        m_MethodName: deposit
+        m_MethodName: deposit_withdraw
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
