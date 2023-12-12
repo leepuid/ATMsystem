@@ -14,4 +14,9 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("WithdrawScene");
     }
+
+    public void SceneBack()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
 }

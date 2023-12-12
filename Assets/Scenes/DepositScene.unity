@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 30,000
+  m_text: 30000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
   m_sharedMaterial: {fileID: 5107455555659595269, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 50,000
+  m_text: 50000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
   m_sharedMaterial: {fileID: 5107455555659595269, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
@@ -560,14 +560,14 @@ MonoBehaviour:
   m_VerticalScrollbarEventHandler: {fileID: 0}
   m_LayoutGroup: {fileID: 0}
   m_ScrollSensitivity: 1
-  m_ContentType: 0
+  m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 2
   m_RegexValue: 
   m_GlobalPointSize: 14
   m_CharacterLimit: 0
@@ -1026,7 +1026,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 482023196}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1548555036}
+        m_TargetAssemblyTypeName: atmManager, Assembly-CSharp
+        m_MethodName: InputDeposit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &482023196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1283,7 +1295,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 652570813}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1548555036}
+        m_TargetAssemblyTypeName: atmManager, Assembly-CSharp
+        m_MethodName: deposit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &652570813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1753,7 +1777,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 897883447}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1548555036}
+        m_TargetAssemblyTypeName: atmManager, Assembly-CSharp
+        m_MethodName: deposit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &897883447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1875,7 +1911,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1020139807}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1548555036}
+        m_TargetAssemblyTypeName: atmManager, Assembly-CSharp
+        m_MethodName: deposit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1020139807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2242,7 +2290,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 50,000
+  m_text: 50000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
   m_sharedMaterial: {fileID: 5107455555659595269, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
@@ -2328,26 +2376,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1548555035}
-  - component: {fileID: 1548555034}
+  - component: {fileID: 1548555036}
+  - component: {fileID: 1548555037}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: atmManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1548555034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548555033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79618924cce236c4a891623eed757af6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1548555035
 Transform:
   m_ObjectHideFlags: 0
@@ -2363,6 +2400,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1548555036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548555033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4241a21a4a65c5e41ba251bc928da7ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userMoney: {fileID: 1672841210}
+  cardMoney: {fileID: 153566171}
+  _inputField: {fileID: 311310659}
+--- !u!114 &1548555037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548555033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79618924cce236c4a891623eed757af6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1550619189
 GameObject:
   m_ObjectHideFlags: 0
@@ -2805,7 +2869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 100,000
+  m_text: 100000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
   m_sharedMaterial: {fileID: 5107455555659595269, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
@@ -3309,7 +3373,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1953445036}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1548555037}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: SceneBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1953445036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3406,7 +3482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10,000
+  m_text: 10000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
   m_sharedMaterial: {fileID: 5107455555659595269, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
