@@ -220,6 +220,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79618924cce236c4a891623eed757af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  userMoney: {fileID: 563548655}
+  cardMoney: {fileID: 2096670360}
+  userName: {fileID: 977585857}
 --- !u!4 &85701987
 Transform:
   m_ObjectHideFlags: 0
@@ -563,7 +566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 100,000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
   m_sharedMaterial: {fileID: 5107455555659595269, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
@@ -1998,7 +2001,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 50,000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
   m_sharedMaterial: {fileID: 5107455555659595269, guid: 515d7a7b7f37cb645b9f0b73c4d90333, type: 2}
